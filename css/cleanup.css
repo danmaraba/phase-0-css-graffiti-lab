@@ -1,1 +1,18 @@
 /* write your override styles here */
+.tag-1{
+    background: url(../images/tag-1.png) no-repeat;
+    z-index: 6;
+    display: none;
+}
+#wall .tag-1{
+    position: relative;
+    top: 2px;
+    left: 2px;
+    width: 800px;
+    height: 500px;
+}
+html{
+    font-family: Helvetica;
+    font-size: large;
+    color: blue;
+}
